@@ -17,15 +17,9 @@ importers:
 
   client:
     dependencies:
-      autoprefixer:
-        specifier: ^10.4.20
-        version: 10.4.20(postcss@8.4.49)
       next:
         specifier: 15.0.3
         version: 15.0.3(react-dom@19.0.0-rc-66855b96-20241106(react@19.0.0-rc-66855b96-20241106))(react@19.0.0-rc-66855b96-20241106)
-      postcss-import:
-        specifier: ^16.1.0
-        version: 16.1.0(postcss@8.4.49)
       react:
         specifier: 19.0.0-rc-66855b96-20241106
         version: 19.0.0-rc-66855b96-20241106
@@ -42,9 +36,15 @@ importers:
       '@types/react-dom':
         specifier: ^18
         version: 18.3.1
+      autoprefixer:
+        specifier: ^10.4.20
+        version: 10.4.20(postcss@8.4.49)
       postcss:
         specifier: ^8
         version: 8.4.49
+      postcss-import:
+        specifier: ^16.1.0
+        version: 16.1.0(postcss@8.4.49)
       tailwindcss:
         specifier: ^3.4.1
         version: 3.4.15
